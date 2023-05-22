@@ -1,0 +1,10 @@
+fileignoreconfig:
+- filename: package-lock.json
+  checksum: a04a222b4e17f1c55cc8218a476a9d2c764c171e9e2d069bd2eb0da1b9250e83
+- filename: src/config/env/.development.env
+  checksum: efa055bf0fb1c50d892f1b979eddd5a3990fb24cdd997367b8e31021b0dfd025
+- filename: src/config/env/.production.env
+  checksum: a781305930ec4dcbaf7671c3db3a460f3b8f2da2aaefd1fb5b49d8ce28153bc6
+- filename: src/config/env/.sandbox.env
+  checksum: 26c6dd06f078dc6e4c234a0123ad5634b8ac3b1b78ba61d4e06addfaca9799e9
+version: "1.0"

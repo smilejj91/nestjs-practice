@@ -1,0 +1,12 @@
+fileignoreconfig:
+- filename: mongodb/docker-compose.yaml
+  checksum: a9ced9daaccc54b19bc0153b5076e64823627b5cf15fa987ada661c83a57b5e4
+- filename: pylon-api/package-lock.json
+  checksum: eded120a32c1562b7a046322b4b6cfdfaf67a9ecebe54cf02f458db35c5e2b00
+- filename: pylon-api/src/config/env/.development.env
+  checksum: 348a3a74e55a04f639e6519943abcf5708ac32963d1b3860af65f74e0c1a344b
+- filename: pylon-api/src/config/env/.production.env
+  checksum: 7978e0fda11ca24e69bd4aa5ef8d2bca11ad784b662e3a735f5b5a466203588c
+- filename: pylon-api/src/config/env/.sandbox.env
+  checksum: b0207e0c7cb8ba78e1b3ac2d8aeee511509f4af7cd9523ba5276fcc30c4f40bd
+version: "1.0"
