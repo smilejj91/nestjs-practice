@@ -1,7 +1,7 @@
 import { Prop, Schema, SchemaFactory, SchemaOptions } from '@nestjs/mongoose';
-import { Document } from 'mongoose';
+import { HydratedDocument } from 'mongoose';
 
-export type ModuleInfoDocument = Document<ModuleInfo>;
+export type ModuleInfoDocument = HydratedDocument<ModuleInfo>;
 
 const options: SchemaOptions = {
     timestamps: true,
@@ -11,8 +11,11 @@ const options: SchemaOptions = {
 
 @Schema(options)
 export class ModuleInfo {
-  @Prop({ required: true, unique: true })
+  @Prop({ required: true })
   name: string;
+
+  @Prop({ required: true })
+  phase: string;
 
   @Prop({ required: true })
   gitUrl: string;

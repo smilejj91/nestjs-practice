@@ -2,11 +2,15 @@ fileignoreconfig:
 - filename: mongodb/docker-compose.yaml
   checksum: a9ced9daaccc54b19bc0153b5076e64823627b5cf15fa987ada661c83a57b5e4
 - filename: pylon-api/package-lock.json
-  checksum: eded120a32c1562b7a046322b4b6cfdfaf67a9ecebe54cf02f458db35c5e2b00
+  checksum: 1a2c2715ec049d85931300e0d4db9dd226befd573c7ed0c9f4b35b4617e21f32
 - filename: pylon-api/src/config/env/.development.env
-  checksum: 348a3a74e55a04f639e6519943abcf5708ac32963d1b3860af65f74e0c1a344b
+  checksum: cda477c1d77973bbf5eb9418f2c998a0e98aaeaccc3c39d24b13a8cf4c1bc241
 - filename: pylon-api/src/config/env/.production.env
-  checksum: 7978e0fda11ca24e69bd4aa5ef8d2bca11ad784b662e3a735f5b5a466203588c
+  checksum: 68fb69d522fdb6f817dd5090e93fcdada9bf31e38a067cd8d85157d354592015
 - filename: pylon-api/src/config/env/.sandbox.env
-  checksum: b0207e0c7cb8ba78e1b3ac2d8aeee511509f4af7cd9523ba5276fcc30c4f40bd
+  checksum: 546b752a5613bcb6e93b154819c3d7a9bd5f73cddeb69771f1d285c4f09fe15c
+- filename: pylon-api/src/config/jenkinsConfig.ts
+  checksum: bfd7a18270b824724ebfa61ceef239c021616b0dc6c670851fb1c6d92421eddd
+- filename: pylon-api/src/modules/modules.service.ts
+  checksum: 1736c7f68f15df1578a3dbde6439ff763dfd598e24ffad64d0628f2d747d877b
 version: "1.0"

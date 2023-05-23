@@ -4,11 +4,13 @@ import { AppService } from './app.service';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { ModulesModule } from './modules/modules.module';
+import jenkinsConfig from './config/jenkinsConfig';
 
 @Module({
   imports: [
     ConfigModule.forRoot({
       envFilePath: [`${__dirname}/config/env/.${process.env.NODE_ENV}.env`],
+      load: [jenkinsConfig],
       isGlobal: true,
     }),
     MongooseModule.forRootAsync({
