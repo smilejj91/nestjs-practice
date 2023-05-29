@@ -1,16 +1,20 @@
 fileignoreconfig:
 - filename: mongodb/docker-compose.yaml
   checksum: a9ced9daaccc54b19bc0153b5076e64823627b5cf15fa987ada661c83a57b5e4
+- filename: mongodb/pylon-mongodb.yml
+  checksum: e8705ba0edfa9368c96b822d574cfce95d0f0625d7b648d0b2e34c4a61f7ffa6
 - filename: pylon-api/package-lock.json
-  checksum: 1a2c2715ec049d85931300e0d4db9dd226befd573c7ed0c9f4b35b4617e21f32
+  checksum: 892c401f5c4ab8b6cbce0cfe763e6a7158c6902e56584d3962cd5de008801ac6
 - filename: pylon-api/src/config/env/.development.env
-  checksum: cda477c1d77973bbf5eb9418f2c998a0e98aaeaccc3c39d24b13a8cf4c1bc241
+  checksum: 0d6d00c56325267f47a3d49922715a4ef830f8283b72750e243c06f1a8f35bb3
 - filename: pylon-api/src/config/env/.production.env
-  checksum: 68fb69d522fdb6f817dd5090e93fcdada9bf31e38a067cd8d85157d354592015
+  checksum: 2d233c7f7d028d2dc2cf865984b1fb4188e0f50084e67469dbc5de8f1e096b5e
 - filename: pylon-api/src/config/env/.sandbox.env
-  checksum: 546b752a5613bcb6e93b154819c3d7a9bd5f73cddeb69771f1d285c4f09fe15c
+  checksum: b8c8229bd92f2ec858e624b71fb36ee77e3a80db433c11b60cac0075730f00df
 - filename: pylon-api/src/config/jenkinsConfig.ts
-  checksum: bfd7a18270b824724ebfa61ceef239c021616b0dc6c670851fb1c6d92421eddd
+  checksum: c9afdb20c97984539274e1140c043b061bc451ed34b5be0723b2966b0e0d4932
+- filename: pylon-api/src/moduleinfo/moduleinfo.service.ts
+  checksum: 2101e97db3fa09a1e6cab8b9c3cd9e36f937b334facc53e5347bcae6eb2813ab
 - filename: pylon-api/src/modules/modules.service.ts
   checksum: 1736c7f68f15df1578a3dbde6439ff763dfd598e24ffad64d0628f2d747d877b
 version: "1.0"

@@ -3,8 +3,11 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigModule, ConfigService } from '@nestjs/config';
-import { ModulesModule } from './modules/modules.module';
+import { ModuleinfoModule } from './moduleinfo/moduleinfo.module';
 import jenkinsConfig from './config/jenkinsConfig';
+import { ExceptionModule } from './exception/exception.module';
+import { BuildinfoModule } from './buildinfo/buildinfo.module';
+import { DeployinfoModule } from './deployinfo/deployinfo.module';
 
 @Module({
   imports: [
@@ -20,7 +23,10 @@ import jenkinsConfig from './config/jenkinsConfig';
       }),
       inject: [ConfigService],
     }),
-    ModulesModule,
+    ExceptionModule,
+    ModuleinfoModule,
+    BuildinfoModule,
+    DeployinfoModule,
   ],
   controllers: [AppController],
   providers: [AppService],
